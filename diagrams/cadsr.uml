@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="2769.0" y="1010.0">cadsr_objects.jaxb.CLASSIFICATIONSLIST</node>
+    <node x="1414.5" y="534.0">cadsr_objects.jaxb.Representation</node>
+    <node x="410.0" y="545.0">cadsr_objects.jaxb.ALTERNATENAMELISTITEM</node>
+    <node x="86.0" y="578.0">cadsr_objects.jaxb.ComponentDataElementsList</node>
+    <node x="2119.305555555555" y="0.0">cadsr_objects.jaxb.ConceptDetailsITEM</node>
+    <node x="797.9999999999999" y="267.0">cadsr_objects.jaxb.PermissibleValuesITEM</node>
+    <node x="2130.5" y="534.0">cadsr_objects.jaxb.Property</node>
+    <node x="1782.5" y="545.0">cadsr_objects.jaxb.ConceptualDomain</node>
+    <node x="1218.5" y="589.0">cadsr_objects.jaxb.ValueDomainConcepts</node>
+    <node x="2114.305555555555" y="344.0">cadsr_objects.jaxb.ConceptDetails</node>
+    <node x="2822.5" y="289.0">cadsr_objects.jaxb.ClassificationScheme</node>
+    <node x="1718.7499999999998" y="1818.0">cadsr_objects.jaxb.DataElementsList</node>
+    <node x="0.0" y="256.0">cadsr_objects.jaxb.ComponentDataElementsListITEM</node>
+    <node x="3357.0" y="534.0">cadsr_objects.jaxb.REFERENCEDOCUMENTSLISTITEM</node>
+    <node x="2866.5" y="556.0">cadsr_objects.jaxb.CLASSIFICATIONSLISTITEM</node>
+    <node x="60.5" y="955.0">cadsr_objects.jaxb.DATAELEMENTDERIVATION</node>
+    <node x="347.5" y="999.0">cadsr_objects.jaxb.ALTERNATENAMELIST</node>
+    <node x="1126.0" y="256.0">cadsr_objects.jaxb.ValueDomainConceptsITEM</node>
+    <node x="2498.5" y="534.0">cadsr_objects.jaxb.ObjectClass</node>
+    <node x="1591.2499999999998" y="1364.0">cadsr_objects.jaxb.DataElement</node>
+    <node x="1113.5" y="768.0">cadsr_objects.jaxb.VALUEDOMAIN</node>
+    <node x="757.9999999999999" y="600.0">cadsr_objects.jaxb.PermissibleValues</node>
+    <node x="3224.0" y="1010.0">cadsr_objects.jaxb.REFERENCEDOCUMENTSLIST</node>
+    <node x="2091.8055555555547" y="867.0">cadsr_objects.jaxb.DATAELEMENTCONCEPT</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cadsr_objects.jaxb.PermissibleValues" target="cadsr_objects.jaxb.PermissibleValuesITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DATAELEMENTCONCEPT" target="cadsr_objects.jaxb.ConceptualDomain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.ALTERNATENAMELIST" target="cadsr_objects.jaxb.ALTERNATENAMELISTITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.VALUEDOMAIN" target="cadsr_objects.jaxb.PermissibleValues">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.ComponentDataElementsList" target="cadsr_objects.jaxb.ComponentDataElementsListITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DATAELEMENTDERIVATION" target="cadsr_objects.jaxb.ComponentDataElementsList">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.Representation" target="cadsr_objects.jaxb.ConceptDetails">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.VALUEDOMAIN" target="cadsr_objects.jaxb.ValueDomainConcepts">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.Property" target="cadsr_objects.jaxb.ConceptDetails">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElement" target="cadsr_objects.jaxb.VALUEDOMAIN">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DATAELEMENTCONCEPT" target="cadsr_objects.jaxb.ObjectClass">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElement" target="cadsr_objects.jaxb.DATAELEMENTCONCEPT">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.VALUEDOMAIN" target="cadsr_objects.jaxb.ConceptualDomain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.REFERENCEDOCUMENTSLIST" target="cadsr_objects.jaxb.REFERENCEDOCUMENTSLISTITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.VALUEDOMAIN" target="cadsr_objects.jaxb.Representation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.ConceptDetails" target="cadsr_objects.jaxb.ConceptDetailsITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElement" target="cadsr_objects.jaxb.DATAELEMENTDERIVATION">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElement" target="cadsr_objects.jaxb.REFERENCEDOCUMENTSLIST">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DATAELEMENTCONCEPT" target="cadsr_objects.jaxb.Property">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.CLASSIFICATIONSLISTITEM" target="cadsr_objects.jaxb.ClassificationScheme">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElement" target="cadsr_objects.jaxb.CLASSIFICATIONSLIST">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.ObjectClass" target="cadsr_objects.jaxb.ConceptDetails">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElementsList" target="cadsr_objects.jaxb.DataElement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.ValueDomainConcepts" target="cadsr_objects.jaxb.ValueDomainConceptsITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.CLASSIFICATIONSLIST" target="cadsr_objects.jaxb.CLASSIFICATIONSLISTITEM">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="cadsr_objects.jaxb.DataElement" target="cadsr_objects.jaxb.ALTERNATENAMELIST">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5735449735449736" x="619.8127306273061" y="1194.470479704797" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
