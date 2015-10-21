@@ -3,6 +3,8 @@ caDSR2OWL
 
 Custom utility to load caDSR Common Data Elements (CDEs) into an OWL ontology.
 
+All the caDSR production CDEs can be downloaded both in Excel and XML format from [here] (https://wiki.nci.nih.gov/display/caDSR/caDSR+Hosted+Data+Standards%2C+Downloads%2C+and+Transformation+Utilities#caDSRHostedDataStandards,Downloads,andTransformationUtilities-caDSRProductionCDEsinXML). This tool reads all CDEs from the XML files and loads them into a caDSR.owl ontology as OWL individuals.
+
 #### Building Prerequisites
 
 To build this library you must have the following items installed:
