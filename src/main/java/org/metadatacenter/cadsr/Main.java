@@ -9,6 +9,7 @@ import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 import javax.management.InstanceNotFoundException;
 import javax.xml.bind.JAXBException;
 import java.io.File;
+import java.io.UnsupportedEncodingException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +41,9 @@ public class Main
   public static void main(String[] args)
   {
 
+    final boolean LOAD_INSTANCES = false;
+    final boolean CREATE_VS = true;
+
     Util util = new Util();
 
     DataElementsList dataElementsList = null;
@@ -53,14 +57,19 @@ public class Main
 
     try {
 
-      // Load CaDSR instances into a CaDSR.owl ontology
-      InstancesLoader instancesloader = new InstancesLoader();
-      instancesloader.createOntologyInstances(util.createOntologyManager(), new File(ontFilePath),
-        new File(populatedOntFilePath), dataElementsList);
+      if (LOAD_INSTANCES) {
+        // Load CaDSR instances into a CaDSR.owl ontology
+        InstancesLoader instancesloader = new InstancesLoader();
+        instancesloader
+          .createOntologyInstances(util.createOntologyManager(), new File(ontFilePath), new File(populatedOntFilePath),
+            dataElementsList);
+      }
 
-      // Generate CaDSR value sets
-      ValueSetsGenerator vsGenerator = new ValueSetsGenerator();
-      vsGenerator.generateValueSets(util.createOntologyManager(),new File(vsOntFilePath), dataElementsList);
+      if (CREATE_VS) {
+        // Generate CaDSR value sets
+        ValueSetsGenerator vsGenerator = new ValueSetsGenerator();
+        vsGenerator.generateValueSets(util.createOntologyManager(), new File(vsOntFilePath), dataElementsList);
+      }
 
     } catch (OWLOntologyCreationException e) {
       e.printStackTrace();
@@ -73,6 +82,8 @@ public class Main
     } catch (IllegalAccessException e) {
       e.printStackTrace();
     } catch (InvocationTargetException e) {
+      e.printStackTrace();
+    } catch (UnsupportedEncodingException e) {
       e.printStackTrace();
     }
   }
