@@ -6,7 +6,7 @@
 
     <groupId>edu.stanford.bmir.cedar.cadsr2owl</groupId>
     <artifactId>cadsr2owl</artifactId>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <packaging>jar</packaging>
     <name>caDSR2OWL</name>
 

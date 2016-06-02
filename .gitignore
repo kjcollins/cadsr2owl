@@ -13,6 +13,8 @@
 *.war
 *.ear
 
+.DS_Store
+
 ### Maven ###
 target/
 pom.xml.tag
